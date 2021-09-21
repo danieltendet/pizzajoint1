@@ -66,3 +66,10 @@ body {
   .row {
     padding: 50px;
   }
+
+  #btn{
+    padding: 30px;
+  }
+  #del{
+    padding: 30px;
+  }
