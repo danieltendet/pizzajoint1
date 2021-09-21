@@ -54,3 +54,11 @@ body {
     .text {font-size: 11px}
   }
   
+  .des{
+
+    padding: 50px;
+    text-align: center;
+  }
+  .des h2{
+    color: rgb(230, 146, 20);
+  }
