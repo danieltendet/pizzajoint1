@@ -18,3 +18,9 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
+const prices = {
+    small : 800,
+    Medium : 1000,
+    large : 1200
+  }
+  let totalcost = 0 
