@@ -24,3 +24,16 @@ const prices = {
     large : 1200
   }
   let totalcost = 0 
+
+  $('form.pizza').submit(function(event){
+
+    event.preventDefault();
+    const fd = new FormData(this);
+    const order = {
+        flavour : fd.get('flavour'),
+        size : fd.get('size'),
+        qty : fd.get('qty'),
+        toppings : fd.getAll('toppings'),
+        cost : parseInt(prices[fd.get('size')]) * parseInt([fd.get('qty')])
+    }
+})
