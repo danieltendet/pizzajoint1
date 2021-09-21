@@ -62,3 +62,7 @@ body {
   .des h2{
     color: rgb(230, 146, 20);
   }
+
+  .row {
+    padding: 50px;
+  }
